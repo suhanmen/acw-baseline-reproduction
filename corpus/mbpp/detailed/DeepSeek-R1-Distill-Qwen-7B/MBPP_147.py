@@ -1,0 +1,1 @@
+max_path_sum([[1000], [1000]], 2, 2)  # Should return 2000

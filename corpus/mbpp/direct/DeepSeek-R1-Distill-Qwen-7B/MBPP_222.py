@@ -1,0 +1,13 @@
+def check_type(elements):
+    if len(elements) == 0:
+        return True
+    first_type = type(elements[0])
+    for element in elements:
+        if type(element) != first_type:
+            return False
+    return True
+
+# Code to be tested
+assert check_type((5, 6, 7, 3, 5, 6)) == True
+assert check_type((1, 2, "4")) == False
+assert check_type((3, 2, 1, 4, 5)) == True

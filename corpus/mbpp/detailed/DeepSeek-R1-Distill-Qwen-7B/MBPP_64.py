@@ -1,0 +1,1 @@
+assert subject_marks([('Physics',96),('Chemistry',97),('Biology',45)]) == [('Biology',45), ('Physics',96), ('Chemistry',97)]

@@ -1,0 +1,1 @@
+print(ncr_modp(17,9,18))  # Output: 10

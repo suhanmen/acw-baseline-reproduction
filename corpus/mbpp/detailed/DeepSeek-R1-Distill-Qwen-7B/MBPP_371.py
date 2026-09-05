@@ -1,0 +1,1 @@
+smallest_missing([-1,0,1,3], -1, 3)

@@ -1,0 +1,1 @@
+max_length_list = lambda lists: (max(len(sublist) for sublist in lists), [sublist for sublist in lists if len(sublist) == max(len(sublist) for sublist in lists))[0]

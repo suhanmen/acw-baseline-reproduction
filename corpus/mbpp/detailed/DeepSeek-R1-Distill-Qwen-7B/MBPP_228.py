@@ -1,0 +1,2 @@
+def all_Bits_Set_In_The_Given_Range(n, m):
+    pass

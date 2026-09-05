@@ -1,0 +1,1 @@
+sum_negativenum = lambda nums: sum(n for n in nums if n < 0)
